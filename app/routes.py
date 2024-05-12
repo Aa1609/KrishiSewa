@@ -21,23 +21,6 @@ def login():
 def index():
     return render_template('index.html')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Prediction route
 @app.route('/predict', methods=['POST'])
 def predict():
