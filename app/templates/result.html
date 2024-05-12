@@ -174,13 +174,13 @@
                 <div class="main">
                     <h1 class="text-center mb-4"><b>Dashboard</b></h1>
                     <div class="data-cards">
-                        <div class="data-card " id="nitrogen-id"><img src="/static/nitrogen.png" alt=""><div class="form_val">{{user_input.nitrogen}} kg/ha</div></div>
-                        <div class="data-card" id="phosphorus-id"><img src="/static/phosphorus.png" alt=""><div class="form_val">{{user_input.phosphorus}} kg/ha</div></div>
-                        <div class="data-card" id="potassium-id"><img src="/static/potassium.png" alt=""><div class="form_val">{{user_input.potassium}} kg/ha</div></div>
-                        <div class="data-card" id="humidity-id"><img src="/static/humidity.png" alt=""><div class="form_val">{{user_input.humidity}} %</div></div>
-                        <div class="data-card" id="temperature-id"><img src="/static/temperature.png" alt=""><div class="form_val">{{user_input.temperature}} °C</div></div>
-                        <div class="data-card" id="ph-id"><img src="/static/pH.png" alt=""><div class="form_val">{{user_input.ph}}</div></div>
-                        <div class="data-card" id="rainfall-id" ><img src="/static/rainfall.png" alt=""><div class="form_val">{{user_input.rainfall}} mm</div></div>
+                        <div class="data-card " id="nitrogen-id"><img src="{{ url_for('static', filename='nitrogen.png') }}" alt=""><div class="form_val">{{user_input.nitrogen}} kg/ha</div></div>
+                        <div class="data-card" id="phosphorus-id"><img src="{{ url_for('static', filename='phosphorus.png') }}" alt="">div class="form_val">{{user_input.phosphorus}} kg/ha</div></div>
+                        <div class="data-card" id="potassium-id"><img src="{{ url_for('static', filename='potassium.png') }}" alt=""><div class="form_val">{{user_input.potassium}} kg/ha</div></div>
+                        <div class="data-card" id="humidity-id"><img src="{{ url_for('static', filename='humidity.png') }}" alt=""><div class="form_val">{{user_input.humidity}} %</div></div>
+                        <div class="data-card" id="temperature-id"><img src="{{ url_for('static', filename='temperature.png') }}" alt=""><div class="form_val">{{user_input.temperature}} °C</div></div>
+                        <div class="data-card" id="ph-id"><img src="{{ url_for('static', filename='pH.png') }}" alt=""><div class="form_val">{{user_input.ph}}</div></div>
+                        <div class="data-card" id="rainfall-id" ><img src="{{ url_for('static', filename='rainfall.png') }}" alt=""><div class="form_val">{{user_input.rainfall}} mm</div></div>
                     </div>
                 </div>
             </div>
