@@ -32,10 +32,7 @@ To run Krishi Sewa locally on your machine, follow these simple steps:
 ## Contributing
 We welcome contributions from the community to enhance Krishi Sewa and make it even more valuable for farmers. If you have any ideas, suggestions, or would like to report a bug, feel free to open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact Us
-Have questions or feedback? Reach out to us at [contact@krishisewa.com](mailto:contact@krishisewa.com).
+Have questions or feedback? Reach out to us at [contact@krishisewa.com](mailto:as5320@dseu.ac.in).
 
 Thank you for choosing Krishi Sewa! 🌱🌟
